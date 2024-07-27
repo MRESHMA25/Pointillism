@@ -74,8 +74,8 @@ def main():
                 draw_point(new_image, BLUE, new_x, new_y)
 
     # Save the new image
-    pygame.image.save(new_image, 'pointillist_image.png')
-    print("Pointillist image saved as 'pointillist_image.png'")
+    pygame.image.save(new_image, 'result.png')
+    print("Pointillist image saved as 'result.png'")
 
     # Quit pygame
     pygame.quit()
